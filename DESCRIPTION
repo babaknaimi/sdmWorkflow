@@ -1,0 +1,17 @@
+Package: sdmWorkflow
+Type: Package
+Title: Species Distribution Modelling Workflow
+Version: 0.1-1
+Date: 2025-02-23
+Authors@R: c(person(given = "Babak",
+                      family = "Naimi",
+                      role = c("aut", "cre"),
+                      email = "naimi.b@gmail.com",
+                      comment = c(ORCID = "0000-0001-5431-2729")))
+Depends: methods, R (>= 3.5.0), sdm
+Imports: sp
+Suggests: raster
+Description: A package provides workflows for implementing SDMs in real studies.
+License: GPL (>= 3)
+URL: https://www.biogeoinformatics.org
+VignetteBuilder: R.rsp
